@@ -1,0 +1,24 @@
+{
+  "name": "ethers-console",
+  "version": "0.1.0",
+  "description": "ethers.js console",
+  "author": "Chris Hatch",
+  "repository": "chatch/ethers-console",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "bin": {
+    "ethers-console": "index.js"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "repl",
+    "ethereum",
+    "ethers.js"
+  ],
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ethers": "^4.0.45",
+    "ospath": "^1.2.2"
+  }
+}
