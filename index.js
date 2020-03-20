@@ -21,6 +21,12 @@ const ethersGanache = new JsonRpcProvider(`http://localhost:7545`)
 const { context } = repl.start('eth> ')
 
 Object.assign(context, {
+  // ethers
+  e: ethers,
+  ethers: ethers,
+  u: ethers.utils,
+  utils: ethers.utils,
+  
   // mainnet
   m: ethersMainnet,
   main: ethersMainnet,
