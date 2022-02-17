@@ -17,8 +17,8 @@
     "ethers.js"
   ],
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "ethers": "5.0.26",
+    "dotenv": "^16.0.0",
+    "ethers": "5.5.4",
     "ospath": "^1.2.2"
   }
 }
